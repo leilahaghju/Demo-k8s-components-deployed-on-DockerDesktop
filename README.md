@@ -7,7 +7,7 @@ Here i deploy some k8s components on Docket Desktop. There is one MONGODB and on
 1) For ingress-controller i use this yaml file:
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.5.1/deploy/static/provider/cloud/deploy.yaml
 
-2) all componnets are installed in ingress-nginx namespacce
+2) all componnets are installed in ingress-nginx namespace and just by running:  "kubectl apply -f "file.yaml""
 
 3) You should insert base64 words in  your secrets.yaml file. to do this you can simply run:   echo -n ""yourtext"|base64
  
