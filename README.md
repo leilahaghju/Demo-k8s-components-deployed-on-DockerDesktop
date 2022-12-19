@@ -1,6 +1,6 @@
 # Demo-k8s-components-deployed-on-DockerDesktop
 
-Here i deploy some k8s components on Docket Desktop. There is one MONGODB and one MONGOEXPRESS. for this we need one mongo-db deployment+service and one mongo-express deployment+service(Internal) and one ingress-controller(nginx) and one ingress.
+Here i deploy some k8s components on Docket Desktop. There is one MONGODB and one MONGOEXPRESS which you can see in your browser by http. for this we need one mongo-db deployment+service(internatl) and one mongo-express deployment+service(Internal) and one ingress-controller(nginx) and one ingress.
 
 
 #ATTENTION
