@@ -1,6 +1,6 @@
 # Demo-k8s-components-deployed-on-DockerDesktop
 
-Here i deploy some k8s components on Docket Desktop. There is one MONGODB and one MONGOEXPRESS which you can see in your browser by http. for this we need one mongo-db deployment+service(internatl) and one mongo-express deployment+service(Internal) and one ingress-controller(nginx) and one ingress.
+Here i deploy some k8s components on Docket Desktop. There is one MONGODB and one MONGOEXPRESS which you can see in your browser by http default port 80 and https default port 443. for this we need one mongo-db deployment+service(internatl) and one mongo-express deployment+service(Internal) and one ingress-controller(nginx) and one ingress.
 
 
 #ATTENTION
@@ -11,7 +11,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 3) You should insert base64 words in  your secrets.yaml file. to do this you can simply run:   echo -n ""yourtext"|base64
  
-4) to check the whole service run this http://kubernetes.docker.internal/ in your browser and you will see something like this:
+4) to check the whole service run this http://kubernetes.docker.internal/  or https://kubernetes.docker.internal in your browser and you will see something like this:
 
 ![image](https://user-images.githubusercontent.com/77623452/208393394-cbe64853-0408-47df-9dbc-5fb10a1130e2.png)
 
