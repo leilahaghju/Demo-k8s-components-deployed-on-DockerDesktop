@@ -12,6 +12,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 3) You should insert base64 words in  your secrets.yaml file. to do this you can simply run:   echo -n ""yourtext"|base64
  
 4) to check the whole service run this http://kubernetes.docker.internal/  or https://kubernetes.docker.internal in your browser and you will see something like this:
+    NOTE: you can find local hostname(kubernetes.docker.internal) in this file on your windows machine: C:\Windows\System32\drivers\etc\hosts
 
 ![image](https://user-images.githubusercontent.com/77623452/208393394-cbe64853-0408-47df-9dbc-5fb10a1130e2.png)
 
